@@ -22,9 +22,11 @@ public class MainController {
 
         return "index";
     }
-    @GetMapping( "/board/detail")
-    public String detail () {
+    @GetMapping( "/board/listings")
+    public String detail (HttpServletRequest request) {
+        List<Main> mainList = mainRepository.findAll();
+        request.setAttribute("mainList",mainList);
 
-        return "board/detail";
+        return "board/listings";
     }
 }

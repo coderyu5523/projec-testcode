@@ -3,6 +3,8 @@ package com.example.demo.main;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDateTime;
+
 @Table(name="main_tb")
 @Data
 @Entity
@@ -12,5 +14,10 @@ public class Main {
     private Integer id;
     private String comName;
     private String comTitle;
+    private String Location ;
+    private String workingTime ;
+    private String pay ;
+
+    private LocalDateTime createdAt;
 
 }
