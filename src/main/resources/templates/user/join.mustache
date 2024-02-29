@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>구직 사이트</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .h2-text {
+            margin: 10px 0 20px;
+            text-align: center;
+        }
+
+        .main {
+            margin: 5vw 5%;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #000;
+        }
+
+        .input-button-join {
+            padding: 5px;
+            margin: 2px 0;
+            width: 100%;
+            height: 35px;
+            background: #38f;
+            color: rgb(255, 255, 255);
+            border: none;
+            border-radius: 5px;
+        }
+
+        .p-text {
+            font-size: 13px;
+            margin-top: 10px;
+            color: rgb(66, 66, 66);
+        }
+
+        .hr-line {
+            margin-bottom: 6px;
+        }
+
+        .div-phone {
+            display: flex;
+
+        }
+
+        .div-phone-number {
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .div-hyphen {
+            margin: 5px;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .div-gender {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            margin-top: 2px;
+
+        }
+
+        .div-gender-radio {
+            font-size: small;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 헤더 start -->
+    <header class="header-main">
+        <nav class="nav-header">
+            <div class="logo">
+                <a href="/index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                        id="Layer_1" x="0px" y="0px" width="94px" height="40px" viewBox="0 0 94 40"
+                        enable-background="new 0 0 94 40" xml:space="preserve">
+                        <image id="image0" width="94" height="40" x="0" y="-5"
+                            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAAAnBAMAAACbE4lqAAAABGdBTUEAALGPC/xhBQAAACBjSFJN AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAG1BMVEX///+/8Nif6MQgy3Zg 2p3f9+sAw2KA4bFA0omp4jRuAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0 SU1FB+gCGgMEA4yE/TMAAAGBSURBVDjL7ZM9T8MwEECdUJOMFUNZC0VlLaK0HQOoUcaolZIViDk8 0g4OYwRV+Nvc2XGbhA+xICHEDXl2fK+271LG/uOb0d2OBpfNlfbcBIeRHSrRXGrPrXDzK4U0Gvcp IX3ZIAdTL9r0jcCfZvPl2Dmf51fxTnABIIuZypASKZEi1oLClVK4MAGY7gR8C3BhUKdgvh4KVyOw ggPZ6hQyTCRKzROiYCE8L0otvIZwawUfCsYS6Ks6e0jhUFJKwh3jE2mFfcBud6BQEFes5piIKqc7 3ON1MisMaeTASMkWRQewWCw0YgJbQRqqJlHwaS+m2kKPdnAhUG0KDx7f7YALCb32MYEOUCdeekSH awgJBB72hJfQVcTQkBEFn2A/l3XBiwCwYDAu4YEaZrm5Jgos7iyCurAHVOkl9bGoOhxULEjwbKd3 QoZ14JhyRtWoKJX+cuhbwt+Sw5rg5l1dqoMVPg9Xhnj2Yz1f42NxFKdrnmMZ0px9Eh//D76Inxf+ 48/FG6OfsrQjV/McAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDI0LTAyLTI2VDAzOjA0OjAwKzAwOjAw FwXGlAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyNC0wMi0yNlQwMzowNDowMCswMDowMGZYfigAAAAo dEVYdGRhdGU6dGltZXN0YW1wADIwMjQtMDItMjZUMDM6MDQ6MDMrMDA6MDAApUVqAAAAAElFTkSu QmCC" />
+                    </svg>
+                </a>
+
+            </div>
+
+            <div class="div-menu-left">
+                <div><a href="/resume/main.html" class="text-body">이력서</a></div>
+                <div><a href="/board/listings.html" class="text-body">채용정보</a></div>
+                <div><a href="#" class="text-body">커뮤니티</a></div>
+            </div>
+
+            <div class="div-menu-right">
+                <div><a href="/user/joinSelection.html" class="text-body">회원가입</a></div>
+                <div><a href="/user/login.html" class="text-body">로그인</a></div>
+                <div><a href="/employer/main.html" class="text-body">개인/기업</a></div>
+            </div>
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <!-- 헤더 end -->
+
+
+    <!-- 바디 start -->
+    <main class="main-size">
+        <div class="main">
+            <h2 class="h2-text">개인 회원가입</h2>
+            <hr class="hr-line">
+            <form action="/join" method="post">
+                <p class="p-text">이름</p>
+                <input type="text" id="username" placeholder="이름을 입력하세요" class="form-control" required>
+
+                <p class="p-text">아이디</p>
+                <input type="text" id="id" placeholder="id" class="form-control" required>
+
+                <p class="p-text">비밀번호</p>
+                <input type="password" id="pw" placeholder="password" class="form-control" required>
+
+
+                <p class="p-text">생년월일</p>
+                <input type="date" id="birthdate" placeholder="birthdate" class="form-control" required>
+
+                <p class="p-text">성별</p>
+                <div class="div-gender">
+                    <div>남자</div>&nbsp;
+                    <div><input type="radio" name="gender" value="남자" class="div-gender-radio"></div>
+                    <div>여자</div>&nbsp;
+                    <div><input type="radio" name="gender" value="여자" class="div-gender-radio"></div>
+
+                </div>
+
+                <p class="p-text">휴대전화</p>
+                <div class="div-phone">
+                    <div class="div-phone-number">
+                        <input type='tel' name='phone1' value="010" class="form-control">
+                    </div>
+                    <div class="div-hyphen">-</div>
+                    <div class="div-phone-number">
+                        <input type='tel' name='phone2' required class="form-control">
+                    </div>
+                    <div class="div-hyphen">-</div>
+                    <div class="div-phone-number">
+                        <input type='tel' name='phone3' required class="form-control">
+                    </div>
+                </div>
+
+                <p class="p-text">주소</p>
+                <input type="text" id="pw" placeholder="주소를 입력하세요" class="form-control" required>
+
+                <p class="p-text">이메일</p>
+                <input type="email" id="pw" placeholder="email" class="form-control" required>
+
+                <p class="p-text">보유 기술
+                <div class="mb-3 form-control">
+                    <span>java</span>
+                    <input type="checkbox" name="stack" value="java">
+                    <span>javaScript</span>
+                    <input type="checkbox" name="stack" value="javascript">
+                    <span>Spring</span>
+                    <input type="checkbox" name="stack" value="spring">
+                    <span>HTML</span>
+                    <input type="checkbox" name="stack" value="html">
+                    <span>jQuery</span>
+                    <input type="checkbox" name="stack" value="jQuery">
+                    <span>MySQL</span>
+                    <input type="checkbox" name="stack" value="mysql">
+                </div>
+                </p>
+                <!-- <div class="login-find">
+                <div class="login-find-select">아이디 찾기</div>
+                <div class="login-find-select">비밀번호 찾기</div>
+                <div class="login-find-select">회원가입</div>
+            </div> -->
+
+                <input type="submit" value="회원가입" class="input-button-join">
+            </form>
+
+        </div>
+        <!-- 바디 end -->
+    </main>
+    <!-- 풋터 start -->
+    <div>
+        <div class="bg-light p-5 text-center">
+            <div class="d-flex justify-content-between">
+                <div>회사소개</div>
+                <div>이용약관</div>
+                <div>개인정보 처리방침</div>
+                <div>고객센터</div>
+            </div>
+
+            <div>
+                <div>고객센터 : 02-1574-1574 (평일 09:00 - 18:00, 주말 공휴일 휴무)</div>
+                <div>이메일 : help@jobplan.co.kr FAX : 02-1574-1575 </div>
+                <div>(주)잡플랜 : 부산광역시 부산진구 중앙대로 749 3층, 대표 최주호</div>
+                <div>사업자 등록번호 312-82-75512, 직업정보제공사업 : 서울 관악 제 2005-6호, 통신판매업 : 제 2005-02339호</div>
+                <div>Copyright (c) (주)잡플랜 All rights reserved.</div>
+            </div>
+        </div>
+    </div>
+    <!-- 풋터 end -->
+</body>
+
+</html>
