@@ -15,7 +15,7 @@ public class Resume {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private Integer writerId ;
+    private Integer uId ;
     private String title ;
     private String selfIntroduction;
     private String sName;
