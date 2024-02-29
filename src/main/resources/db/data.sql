@@ -6,3 +6,5 @@ INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VA
 INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VALUES ('롯데', '2024 신입 노예 채용 공고','대전','종일근무','노예계약',now());
 INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VALUES ('그린컴퓨터', '2024 신입 노예 채용 공고','대전','종일근무','노예계약',now());
 INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VALUES ('구글', '2024 신입 노예 채용 공고','대구','종일근무','노예계약',now());
+
+INSERT INTO user_tb(username,email) VALUES ('홍길동','ssar@naver.com');
