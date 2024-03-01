@@ -7,16 +7,24 @@ INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VA
 INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VALUES ('그린컴퓨터', '2024 신입 노예 채용 공고','대전','종일근무','노예계약',now());
 INSERT INTO main_tb(com_name, com_title,location,working_time,pay,created_at) VALUES ('구글', '2024 신입 노예 채용 공고','대구','종일근무','노예계약',now());
 
-INSERT INTO user_tb(username,email) VALUES ('홍길동','ssar@naver.com');
-
+INSERT INTO user_tb(name,email) VALUES ('홍길동','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('임꺽정','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('김민수','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('한동수','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('이순신','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('장보고','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('이완용','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('전두환','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('박정희','ssar@naver.com');
+INSERT INTO user_tb(name,email) VALUES ('김대중','ssar@naver.com');
 
 insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (1,'열정열정열정','가','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (1,'정열정열정열','나','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (2,'열망열망열망','다','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (2,'열정','라','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (3,'열정열정','마','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (3,'happy','바','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (4,'뽑아주세요','사','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (4,'굿굿','아','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (5,'최주호','자','그린컴','컴공','졸업','20240223','삼성','1년',now());
-insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (5,'하하하하','차','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (2,'정열정열정열','나','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (3,'열망열망열망','다','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (4,'열정','라','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (5,'열정열정','마','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (6,'happy','바','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (7,'뽑아주세요','사','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (8,'굿굿','아','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (9,'최주호','자','그린컴','컴공','졸업','20240223','삼성','1년',now());
+insert into resume_tb(u_id,title,self_introduction,s_name,major,grad_type,grad_date,com_name,career,created_at) values (10,'하하하하','차','그린컴','컴공','졸업','20240223','삼성','1년',now());

@@ -17,12 +17,11 @@ public class MainRepository {
     public List<Main> findAll() {
 
         Query query = em.createNativeQuery("select * from main_tb order by id desc;",Main.class);
-        return query.getResultList();
 
-//        try {
-//            return query.getResultList();
-//        } catch (Exception e) {
-//            return null;
-//        }
+        try {
+            return query.getResultList();
+        } catch (Exception e) {
+            return null;
+        }
     }
 }

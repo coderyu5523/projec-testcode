@@ -17,7 +17,7 @@ public class UserController {
     public String userProfile(HttpServletRequest request) {
 
         List<User> userList = userRepository.findAll();
-        String requsetDTO1  = userList.get(0).getUsername();
+        String requsetDTO1  = userList.get(0).getName();
         String requsetDTO2  = userList.get(0).getEmail();
         request.setAttribute("list1",requsetDTO1 );
         request.setAttribute("list2",requsetDTO2 );
