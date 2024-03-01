@@ -3,6 +3,7 @@ package com.example.demo.main;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Table(name="main_tb")
@@ -18,6 +19,6 @@ public class Main {
     private String workingTime ;
     private String pay ;
 
-    private LocalDateTime createdAt;
+    private LocalDate createdAt;
 
 }
